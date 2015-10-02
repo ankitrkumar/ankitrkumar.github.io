@@ -17,6 +17,7 @@ For a project that I am working on, I wanted to control the playback of a 4k vid
 And that was it. I was able to control vlc.
 
 ### How I did it:
+
 - ##### Vlc Setup:
     To setup vlc go to Tools > Preferences and select the Show settings > All option.
     Then set the Main Interface and Lua options like the images below.
@@ -26,6 +27,7 @@ And that was it. I was able to control vlc.
 ![_config.yml]({{ site.baseurl }}/images/vlc-main-interface.png)
 
 - ##### Starting vlc from unity:
+
     Using just this line of code, from my Awake method, I was able to start a vlc process.
     ```
     System.Diagnostics.Process.Start("C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe");
@@ -33,27 +35,28 @@ And that was it. I was able to control vlc.
         
 - ##### Telnet code:
     For the Telnet code I used a Minimalist Telnet Interface that looks like this,
+
     ```
     using System;
     using System.Collections.Generic;
     using System.Text;
     using System.Net.Sockets;
 
-    namespace MinimalisticTelnet
+	namespace MinimalisticTelnet
     {
         enum Verbs
-    {
-        WILL = 251,
-        WONT = 252,
-        DO = 253,
-        DONT = 254,
-        IAC = 255
-    }
+    	{
+        	WILL = 251,
+        	WONT = 252,
+        	DO = 253,
+        	DONT = 254,
+        	IAC = 255
+    	}
 
-    enum Options
-    {
-        SGA = 3
-    }
+    	enum Options
+    	{
+        	SGA = 3
+    	}
 
     class TelnetConnection
     {
