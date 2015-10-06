@@ -18,7 +18,7 @@ And that was it. I was able to control vlc.
 
 ### How I did it:
 
-- ##### Vlc Setup:
+- ##### VLC stup:
     To setup vlc go to Tools > Preferences and select the Show settings > All option.
     Then set the Main Interface and Lua options like the images below.
 
@@ -237,8 +237,11 @@ And that was it. I was able to control vlc.
 And thats's pretty much it. Call your methods on video controller objects from anywhere and you can control the playback.
 
 Here is how I am doing it,
-
-    ```
+	
+	```
+	.
+	.
+	.
     private VideoController vidC = GameObject.FindObjectOfType<VideoController>();
     .
     .
@@ -254,6 +257,6 @@ Here is how I am doing it,
 
 For more commands look up the help in vlc and it should work.
 
-Give me feedback 
+Hope this helps, give me feedback for improvements or criticism.
 
 [me@kumarankit.com](mailto:me@kumarankit.com)
