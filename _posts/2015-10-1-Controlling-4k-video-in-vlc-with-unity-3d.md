@@ -17,8 +17,8 @@ For a project that I am working on, I wanted to control the playback of a 4k vid
 And that was it. I was able to control vlc.
 
 ### How I did it:
-
-- ##### VLC stup:
+        
+- ##### VLC setup:
     To setup vlc go to Tools > Preferences and select the Show settings > All option.
     Then set the Main Interface and Lua options like the images below.
 
