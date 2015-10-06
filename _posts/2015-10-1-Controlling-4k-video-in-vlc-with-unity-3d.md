@@ -22,9 +22,10 @@ And that was it. I was able to control vlc.
     To setup vlc go to Tools > Preferences and select the Show settings > All option.
     Then set the Main Interface and Lua options like the images below.
 
-![_config.yml]({{ site.baseurl }}/images/vlc-lua.png)
 
-![_config.yml]({{ site.baseurl }}/images/vlc-main-interface.png)
+![_config.yml]({{ site.baseurl }}/images/vlc-lua.PNG)
+
+![_config.yml]({{ site.baseurl }}/images/vlc-main-interface.PNG)
 
 - ##### Starting vlc from unity:
 
